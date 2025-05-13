@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela Estilizada</title>
+<link rel="stylesheet" href="../td.css">
+  </head>
+  <body>
+    <header>
+      <h2>Bem Vindo,</h2>
+    </header>
+
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Numero_Prontuario</th>
+            <th>Contato</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Nome">aaaaaaa</td>
+            <td data-label="Numero_Prontuario">123456</td>
+            <td data-label="Contato">(11) 99999-9999</td>
+            <td data-label="Ações">
+              <div class="actions">
+                <form action="" method="post">
+                  <button class="btn btn-edit" name="editar">Editar</button>
+                </form>
+                <form action="" method="post">
+                  <button class="btn btn-delete" name="excluir">Excluir</button>
+                </form>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
